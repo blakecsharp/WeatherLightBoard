@@ -8,7 +8,7 @@ import json
 arduino = serial.Serial(port='/dev/cu.usbserial-DJ00S6Z3', baudrate=115200, timeout=.1)
 
 # Get an API key from https://openweathermap.org/
-API_KEY = ""
+API_KEY = "aba237d2ab3bba2d675a6f5788455ec7"
 
 def write_read(x):
     arduino.write(bytes(x, 'utf-8'))
